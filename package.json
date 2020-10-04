@@ -1,7 +1,11 @@
 {
   "name": "nmap",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "delta-kor <deltakbot1@gmail.com>",
+  "repository": "https://github.com/delta-kor/nmap",
+  "description": "Naver Map API",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
