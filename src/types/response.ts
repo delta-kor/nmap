@@ -1,4 +1,4 @@
-declare namespace InstantSearchResponse {
+export namespace InstantSearchResponse {
   export type Query = string;
   export interface Address {
     dist: number;
@@ -73,7 +73,7 @@ declare namespace InstantSearchResponse {
   }
 }
 
-declare interface InstantSearchResponse {
+export interface InstantSearchResponse {
   ac: InstantSearchResponse.Query[];
   address: InstantSearchResponse.Address[];
   bus: InstantSearchResponse.Bus[];
